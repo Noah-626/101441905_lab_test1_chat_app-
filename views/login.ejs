@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <!-- <input type="name" name="email" id="email" placeholder="Email" autocomplete="off" required> -->
+            <input type="text" name="name" id="name" placeholder="Username" autocomplete="off" required>
+            <input type="password" name="password" id="password" placeholder="password" autocomplete="off" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have account? <a href="/register">register here</a></p>
+    </div>
+</body>
+</html>
